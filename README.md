@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+### House rent system
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The House rent system is a web application that allows users to search for and rent or buy houses and apartments online. The application is built using Bootstrap, Firebase, Google OAuth, and React, and includes functionalities such as state-wise search, adding and updating listings, deleting listings, updating user profiles, and signing up and logging in using Google OAuth. The application also includes separate pages for rental and sales listings.
 
-## Available Scripts
+### Getting Started
 
-In the project directory, you can run:
+To get started with the Online House Rental System, you will need to have the following installed on your computer:
 
-### `npm start`
+-> Node.js
+-> npm
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Once you have Node.js and npm installed, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository to your local machine.
+2. Navigate to the root directory of the application in 3. your terminal.
+3. Run npm install to install the required dependencies.
+4. Create a Firebase project and add your Firebase configuration details to a .env file in the root directory of the application.
+5. Enable Google OAuth in your Firebase project and add the necessary OAuth credentials to the .env file.
+6. Run npm start to start the application.
 
-### `npm test`
+### Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## State-Wise Search
 
-### `npm run build`
+Users can search for houses and apartments by state, using the search bar on the home page.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Adding and Updating Listings
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Logged-in users can add new rental or sales listings to the application. They can also update existing listings.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Deleting Listings
 
-### `npm run eject`
+Logged-in users can delete their own rental or sales listings from the application.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Updating User Profiles
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Logged-in users can update their own user profiles, including their name and profile picture.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Sign Up and Login using Google OAuth
 
-## Learn More
+Users can sign up and login to the application using their Google account, via the Google OAuth feature.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Rental and Sales Pages
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The application includes separate pages for rental and sales listings, making it easier for users to find what they are looking for.
 
-### Code Splitting
+## Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The Online House Rental System is built using the following technologies:
 
-### Analyzing the Bundle Size
+-> Bootstrap
+-> Firebase
+-> Google OAuth
+-> React
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Conclusion
 
-### Making a Progressive Web App
+The Online House Rental System is a modern, efficient, and user-friendly application for finding and renting or buying houses and apartments online. With its state-wise search, adding and updating listings, deleting listings, updating user profiles, and Google OAuth features, the application provides a seamless experience for users.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
